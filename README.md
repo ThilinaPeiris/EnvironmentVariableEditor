@@ -1,2 +1,4 @@
-# EnvironmentVariableEditor
-A simple tool to set Environment Variables [system variables] 
+### EnvironmentVariableEditor
+
+This is a simple tool to set Environment Variables [system variables] in windows. 
+
