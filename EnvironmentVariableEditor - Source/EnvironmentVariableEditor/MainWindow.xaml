@@ -1,0 +1,16 @@
+﻿<Window x:Class="EnvironmentVariableEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Environment Variable Editor" Height="332.894" Width="575" >
+    <Grid>
+        <GroupBox x:Name="groupbox" Header="" HorizontalAlignment="Left" Margin="46,29,0,0" VerticalAlignment="Top" Height="202" Width="499"/>
+
+        <Label x:Name="var_label" Content="Variable" Foreground="#0101DF" HorizontalAlignment="Left" Margin="89,68,0,0" VerticalAlignment="Top" Height="35" Width="67" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="value_label" Content="Value" Foreground="#0101DF" HorizontalAlignment="Left" Margin="89,129,0,0" VerticalAlignment="Top" Height="39" Width="67" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="var_textbox" HorizontalAlignment="Left"  Foreground="#0101DF" Height="23" Margin="172,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="336"/>
+        <TextBox x:Name="value_textbox" Foreground="#0101DF" HorizontalAlignment="Left" Height="26" Margin="172,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="336"/>
+        <Button x:Name="apply_button" Content="Apply" Foreground="#0101DF" HorizontalAlignment="Left" Margin="457,250,0,0" VerticalAlignment="Top" Width="80" Height="30" FontSize="14" Click="apply_button_Click" FontWeight="Bold"/>
+        <Button x:Name="cancel_button" Content="Cancel" Foreground="#0101DF" HorizontalAlignment="Left" Margin="372,250,0,0" VerticalAlignment="Top" Width="80" Height="30" FontSize="14" Click="cancel_button_Click" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
